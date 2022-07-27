@@ -22,7 +22,7 @@ docs = ["iou"]
 iou = ["iou_"]
 
 [dependencies]
-nix = { version = "0.24", features = [ "process" ], default-features = false }
+nix = { version = "0.24", features = [ "process", "user" ], default-features = false }
 libc = "0.2"
 
 iou_ = { package = "iou", version = "0.3", optional = true }
